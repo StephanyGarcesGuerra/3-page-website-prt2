@@ -1,0 +1,80 @@
+body{
+    padding-left: 20px
+}
+.dropdown-menu:hover{
+    background-color: rgb(176, 146, 204);
+}
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.dogs{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly
+}
+
+#dogs-name{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.cats{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#cat-names{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.who-are-we img{
+    width: 80%;
+    display: flex;
+}
+#contact{
+    color: rgb(149, 0, 255);
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}#message{
+    width: 50%;
+    height: 150px;
+}
+#table{
+    border-right: 3px solid black;
+    padding-right: 50px;
+}
+#table-right{
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+#table-top{
+    border-bottom: 3px solid black;
+    /* padding-bottom: 50px; */
+}
+#send{
+    transition-duration: 2s;
+}
+#send:hover{
+    background-color: rgb(169, 127, 208);
+}
+#submit:hover{
+    background-color: rgb(169, 127, 208);
+}
+#caption{
+    color: rgb(117, 146, 172);
+}
+#adoptionForm{
+    color:rgb(149, 0, 255);
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+

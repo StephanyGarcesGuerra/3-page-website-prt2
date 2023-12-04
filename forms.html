@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
+    <title>Adoption Form</title>
+    <style type = text/css>
+      p {color: rgb(159, 12, 233)}
+      body{ background-color: rgb(229, 215, 250)}
+    </style>
+</head>
+<body>
+  <h1 style = "background-color:  rgb(117, 69, 171); color:rgb(255, 255, 255) " > For You Adoptions </h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="events.html">Events</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Forms
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Adoption Form</a></li>
+                  <li><a class="dropdown-item" href="#">Volunteer Form</a></li>
+                  <li><a class="dropdown-item" href="#">Donation Form</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <h1> Adoption Form</h1>
+    <hr>
+    <div id =adoptionForm>
+      <form action="#">
+        <label>Select Animal Type</label>
+        <select name="animal-type">
+          <option value="na"></option>
+          <option value="cat">Cat</option>
+          <option value="dog">Dog</option>
+          <option value="na">Open to both</option>
+        </select> 
+        <br>
+        <br>
+      <label for="pet-name">Name of Pet of Interest </label>
+      <input placeholder="not required" type="text" name="pet-name" id="pet-name">
+      <br>
+      <label for="your-name">Your Name</label>
+        <input type="text" name="your-name" id="your-name" required>
+        <br>
+      <label for="your-email">Email</label>
+        <input placeholder= "email@gmail.com" type="text" name="your-email" id="your-email">
+      <br>
+      <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="phone" required>
+      <br>
+      <label for="birthdate">Birthdate</label>
+        <input type="date" name="birthdate" id="birthdate" required>
+      <br>
+      <label for="gender">Gender: </label>
+        <label>Female
+          <input type="radio" name="radio" id="female" />
+        </label>
+        <label>Male
+          <input type="radio" name="radio" id="male" />
+        </label>
+        <br>
+      <label for="address">Current Address </label>
+        <input type="text" name="address" id="address" required>
+      <br>
+      <label for="city">City </label>
+        <input type="text" name="city" id="city" required>
+      <br>
+      <label for="State">State </label>
+        <input type="text" name="state" id="state" required>
+      <br>
+      <label for="zip-code">Zip Code </label>
+        <input type="number" name="zip-code" id="zip-code" required>
+<br>
+      <label for="allowed">Are pets allowed in your building </label>
+         <select name="allowed">
+          <option value="clear"></option>
+          <option value="cats">Only cats are allowed</option>
+          <option value="dogs">Dogs are allowed with restrictions</option>
+          <option value="dogs">Dogs are allowed, no restrictions</option>
+          <option value="no-pets">No pets allowed</option>
+        </select> 
+        <br>
+        <br>
+        <br>
+        <label for="checkbox">By checking this box I certify the information given here is accurate to the best of my knowledge
+          <input type="checkbox" name="checkbox" id="checkbox" />
+       </label>
+      <br>
+       <input type="submit" name="submit" id="submit" required>
+     </div>
+     <br>
+    <div id = gif>
+     <img src="https://media4.giphy.com/media/F0J0uiNS8n0BHSQmDt/giphy.gif?cid=ecf05e47194s1ogxet0vtxn4txf5pl1gbjecjxdcai4ffk2r&ep=v1_gifs_search&rid=giphy.gif&ct=g">
+    </div> 
+    </form>
+    <br>
+    <br>
+</body>
+</html>
+
